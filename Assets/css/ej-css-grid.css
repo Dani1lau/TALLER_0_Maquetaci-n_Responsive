@@ -1,3 +1,7 @@
+* {
+    height: 100%;
+}
+
 #container-grid {
     display: grid;
     grid-template:
@@ -9,31 +13,8 @@
     text-align: center;
 }
 
-/*Estilos Grid Items*/
-header {
-    grid-area: header;
-    background-color: blue;
-}
-
-nav {
-    grid-area: navbar;
-    background-color: yellow;
-}
-
-main {
-    grid-area: main;
-    background-color: blueviolet;
-}
-
-aside {
-    grid-area: sidebar;
-    background-color: green;
-
-}
-
-footer {
-    grid-area: footer;
-    background-color: red;
+body {
+    min-height: 100%;
 }
 
 /*Resolución tabletas*/
@@ -66,4 +47,30 @@ footer {
         max-width: 1200px;
         margin: 0 auto;
     }
+}
+
+/*Estilos Grid Items*/
+header {
+    grid-area: header;
+    background-color: blue;
+}
+
+nav {
+    grid-area: navbar;
+    background-color: yellow;
+}
+
+main {
+    grid-area: main;
+    background-color: blueviolet;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: green;
+}
+
+footer {
+    grid-area: footer;
+    background-color: red;
 }
