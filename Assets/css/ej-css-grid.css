@@ -17,6 +17,32 @@ body {
     min-height: 100%;
 }
 
+/*Estilos Grid Items*/
+header {
+    grid-area: header;
+    background-color: blue;
+}
+
+nav {
+    grid-area: navbar;
+    background-color: yellow;
+}
+
+main {
+    grid-area: main;
+    background-color: blueviolet;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: green;
+}
+
+footer {
+    grid-area: footer;
+    background-color: red;
+}
+
 /*Resolución tabletas*/
 @media screen and (min-width:768px) {
     .container-grid {
@@ -47,30 +73,4 @@ body {
         max-width: 1200px;
         margin: 0 auto;
     }
-}
-
-/*Estilos Grid Items*/
-header {
-    grid-area: header;
-    background-color: blue;
-}
-
-nav {
-    grid-area: navbar;
-    background-color: yellow;
-}
-
-main {
-    grid-area: main;
-    background-color: blueviolet;
-}
-
-aside {
-    grid-area: sidebar;
-    background-color: green;
-}
-
-footer {
-    grid-area: footer;
-    background-color: red;
 }

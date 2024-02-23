@@ -67,19 +67,6 @@ nav a:hover {
     padding: 1rem;
 }
 
-.menu-hr {
-    width: 90%;
-    background-color: var(--blanco);
-}
-
-.menu {
-    background-color: rgba(1, 10, 52, 0.838);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .menu a {
     color: var(--blanco);
     text-decoration: none;
@@ -94,8 +81,17 @@ nav a:hover {
     font-size: 1em;
 }
 
-.menu i {
-    margin-right: 0.5rem;
+.menu {
+    background-color: rgba(1, 10, 52, 0.838);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-hr {
+    width: 90%;
+    background-color: var(--blanco);
 }
 
 .logo {
@@ -105,7 +101,6 @@ nav a:hover {
     justify-content: space-between;
     padding: 1rem;
 }
-
 
 .logo img {
     width: 40%;
@@ -172,7 +167,7 @@ nav a:hover {
         display: flex;
         flex-direction: row;
         /*cambiamos la disposición de los elementos*/
-        width: 100%;
+        width: 97.5%;
         justify-content: space-between;
         background-color: var(--negro2);
     }
@@ -207,6 +202,3 @@ nav a:hover {
         background-color: var(--azuloscuro);
     }
 }
-
-/*Resolución notebooks*/
-@media screen and (min-width: 1308px) {}
