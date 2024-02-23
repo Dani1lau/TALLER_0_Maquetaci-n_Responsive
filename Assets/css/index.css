@@ -170,7 +170,8 @@ nav a:hover {
 @media screen and (min-width: 1024px) {
     nav {
         display: flex;
-        flex-direction: row; /*cambiamos la disposición de los elementos*/
+        flex-direction: row;
+        /*cambiamos la disposición de los elementos*/
         width: 100%;
         justify-content: space-between;
         background-color: var(--negro2);
